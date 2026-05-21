@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#section-1 {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header i {
+  font-size: 30px;
+}
+
+.header h1 {
+  font-size: 18px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #141414;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1 {
+  font-weight: 500;
+  letter-spacing: -5px;
+}
+
+.filter-tab {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.filter-tab button {
+  border-radius: 20px;
+  font-family: "Segoe UI";
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.filter-tab button:nth-child(1) {
+  background-color: #fc4709;
+}
+
+.cards-container {
+  height: 50%;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 20%;
+  height: 95%;
+  background-color: #0e0e0e;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.box .box-img img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.box-text {
+  padding: 20px;
+  background-color: #0e0e0e;
+}
+
+.box-text .btn {
+  border-radius: 20px;
+  font-family: "Segoe UI";
+  padding: 5px 10px;
+  background-color: #521c09;
+  color: rgb(240, 239, 237);
+  font-size: 16px;
+}
+
+.box-text h3{
+    margin-top: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.box-text p{
+    color: rgb(84, 82, 82);
+    font-size: 16px;
+}
+
